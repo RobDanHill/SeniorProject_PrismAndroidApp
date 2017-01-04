@@ -92,7 +92,7 @@ public class SendImageActivity extends AppCompatActivity implements View.OnClick
         switch ( v.getId() ) {
             case R.id.send_image_button :
                 new SendImage( mainActivityBundle.getString( "eventKey" ),
-                        mainActivityBundle.getString( "userName" ) ).execute( "192.168.1.101" ); // 152.13.48.96
+                        mainActivityBundle.getString( "userName" ) ).execute( "SomeIP" ); // Removed original IP for privacy
                 break;
             case R.id.back_button :
                 takePhoto( v );

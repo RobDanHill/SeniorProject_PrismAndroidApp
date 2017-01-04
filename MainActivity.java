@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
             } else {
                 // Begin sending the Event-key to the Server
                 new VerifyEventCode( eventKeyET.getText().toString(),
-                        userNameET.getText().toString() ).execute( "192.168.1.101" ); // 192.168.0.4
+                        userNameET.getText().toString() ).execute( "SomeIP" ); // Removed original IP for privacy
 
             }
         }
